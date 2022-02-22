@@ -5,7 +5,7 @@
 
 ##> my first back-end project using javascript, node.js
 
-> ### features
+### features
 
 - register user
 - login user account
@@ -28,7 +28,7 @@ Now it will be necessary to define and install all our dependencies. Let's use e
 npm I express sequelize mysql2 @faker - js / faker
 Let's initialize our app with express to validate with a Hello World! , with that we create in index.js:
 
-### // index.js
+### //index.js
 
 const express = require( 'express' )
 const app = express()
