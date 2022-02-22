@@ -3,8 +3,6 @@
 <h4 align= 'center'>
     🧱 project under construction 🛠️</h4>
 
-##> my first back-end project using javascript, node.js
-
 ### features
 
 - register user
