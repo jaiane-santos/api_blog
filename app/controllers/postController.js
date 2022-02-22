@@ -8,7 +8,6 @@ const postController = {
 
   store:async(req , res) => {
     const{title, description}= req.body
-  
     const post = await Post.create({
       title,
       description,
