@@ -19,6 +19,7 @@ const factory = (n)=> {
       for(let i =0; i < n; i++){
           elements[i] = make();
       }
+
       return elements
 }
 

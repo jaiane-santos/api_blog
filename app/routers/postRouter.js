@@ -4,6 +4,7 @@ const router = express.Router()
 
 const postCrontroller = require('../controllers/postController')
 
+
 router.get('/', postCrontroller.index )
 router.post('/', postCrontroller.store )
 router.get('/:id', postCrontroller.show)

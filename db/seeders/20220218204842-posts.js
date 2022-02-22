@@ -8,7 +8,7 @@ module.exports = {
     const posts = postFactory(50)
     await queryInterface.bulkInsert('posts', posts, {});
   },
-  
+
   async down (queryInterface, Sequelize) {
     await queryInterface.bulkDelete('posts', null, {});
   }
